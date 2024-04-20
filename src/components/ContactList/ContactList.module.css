@@ -1,0 +1,28 @@
+.list {
+    padding: 0px;
+  }
+  
+  .item {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  
+  .number {
+    font-weight: 600;
+    color: #a91179;
+  }
+  
+  .button {
+    justify-content: flex-end;
+    background-color: #8d898992;
+    border: 1px solid #2f4f4f4b;
+    border-radius: 15px;
+    padding: 1px 10px;
+  }
+  
+  .button:hover {
+    background-color: #dc143c8c;
+    box-shadow: 0 5px 10px -1px #33333340;
+  }

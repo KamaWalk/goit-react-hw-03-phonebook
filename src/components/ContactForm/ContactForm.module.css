@@ -1,0 +1,32 @@
+.formstyle {
+    padding: 24px;
+    background-color: #ffffffb0;
+    border: 4px solid #ef2ecb;
+    border-radius: 35px;
+    width: 300px;
+  }
+  
+  .label {
+    margin-bottom: 10px;
+  }
+  
+  .input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 15px;
+  }
+  
+ 
+  .button {
+    margin-top: 10px;
+    background-color: #da34aecb;
+    border: 3px solid #eb50c2;
+    border-radius: 15px;
+    padding: 5px 20px;
+  }
+  
+  .button:hover {
+    background: #e92096;
+    box-shadow: 0 5px 10px -1px #c21081cf;
+  }
