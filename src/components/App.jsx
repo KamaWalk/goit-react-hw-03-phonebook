@@ -16,12 +16,11 @@ export class App extends Component {
     filter: '',
   };
 
-  //obsługa zdarzenia zmiany danych w INPUT
+ 
   onChangeInput = evt => {
-    //dodanie nazwy i wartości do metody gdy zmienia się zawartość pola wejściowego
     const { name, value } = evt.currentTarget;
 
-  //ustawienie nowego stanu komponentu
+
     this.setState({ [name]: value });
   };
 
