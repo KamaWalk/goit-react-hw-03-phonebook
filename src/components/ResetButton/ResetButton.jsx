@@ -5,7 +5,7 @@ import css from './ResetButton.module.css';
 export const ResetButton = ({ onClick }) => {
   return (
     <button onClick={onClick} className={css.resetButton}>
-      Reset Local Storage
+      Reset Contacts
     </button>
   );
 };
